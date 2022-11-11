@@ -59,10 +59,10 @@ main {
 }
 
 main::-webkit-scrollbar {
-    background-color: transparent;
-    width: 2px;
+  background-color: transparent;
+  width: 2px;
 }
 
 main::-webkit-scrollbar-thumb {
-    background-color: #1fdf64;
+  background-color: #1fdf64;
 }
