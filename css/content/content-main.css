@@ -1,0 +1,42 @@
+.content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px;
+  padding: 30px;
+  padding-left: 260px;
+}
+
+.grid-1-max {
+  grid-column: 1 / -1;
+}
+
+.greeting-message {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+  grid-column: 1 / 3;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.section-header-seeAll {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #aeaeae;
+}
+
+.section-header-seeAll:hover {
+  text-decoration: underline;
+}
+
+#favorite-artists.card-style .card-style-item img {
+  border-radius: 50%;
+}

@@ -1,0 +1,17 @@
+@import "./geral.css";
+
+/* Assets */
+@import "./assets/divisor.css";
+@import "./assets/card-style.css";
+
+/* Side Menu */
+@import "./side-menu/side-menu.css";
+
+/* Now Playing */
+@import "./now-playing/now-playing.css";
+
+/* Main Content */
+@import "./content/content-header.css";
+@import "./content/content-main.css";
+@import "./content/recent-played.css";
+@import "./content/may-like.css";

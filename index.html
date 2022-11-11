@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - Web player</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <header class="side-menu">
+    <nav>
+      <img class="logo" src="./img/spotify-logo.svg" alt="Logo do Spotify">
+
+      <ul class="nav">
+        <li><a href="#"><img src="./img/icons/home.svg" alt="">Início</a></li>
+        <li><a href="#"><img src="./img/icons/search.svg" alt="">Buscar</a></li>
+        <li><a href="#"><img src="./img/icons/library.svg" alt="">Sua Biblioteca</a></li>
+      </ul>
+
+      <ul class="nav">
+        <li><a href="#"><img src="./img/icons/new-playlist.svg" alt="">Criar playlist</a></li>
+        <li><a href="#"><img src="./img/icons/favorite.svg" alt="">Músicas Curtidas</a></li>
+      </ul>
+
+      <span class="divisor"></span>
+
+      <ul class="recent-playlists">
+        <li><a href="#">GetReadyWithPedro 09.24.22</a></li>
+        <li><a href="#">As mais tocadas no seu 2021</a></li>
+        <li><a href="#">More Than You Know EP</a></li>
+        <li><a href="#">Run Radio</a></li>
+        <li><a href="#">Sing Radio</a></li>
+        <li><a href="#">Through The Fire And Flame...</a></li>
+      </ul>
+
+      <div class="download-area">
+        <a class="download-app" href="#"><img src="./img/icons/download.svg" alt="">Instalar aplicativo</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <header class="content-header">
+      <ul class="content-navigation">
+        <li class="navigation-back"><span></span></li>
+        <li class="navigation-forward"><span></span></li>
+      </ul>
+
+      <a class="content-profile" href="#"><img src="./img/content/header/picture.jfif" alt="">Pedro Frazão<span class="arrow-down"></span></a>
+    </header>
+
+    <div class="content">
+      <span class="greeting-message">Boa noite</span>
+
+      <section class="recent-played">
+        <ul>
+          <li class="recent-played-item">
+            <a href=""><img src="./img/content/content/recent-played/vintage_culture.jfif" alt="">This Is Vintage Culture</a>
+          </li>
+          <li class="recent-played-item">
+            <a href=""><img src="./img/content/content/recent-played/vintage_culture.jfif" alt="">This Is Vintage Culture</a>
+          </li>
+          <li class="recent-played-item">
+            <a href=""><img src="./img/content/content/recent-played/vintage_culture.jfif" alt="">This Is Vintage Culture</a>
+          </li>
+          <li class="recent-played-item">
+            <a href=""><img src="./img/content/content/recent-played/vintage_culture.jfif" alt="">This Is Vintage Culture</a>
+          </li>
+          <li class="recent-played-item">
+            <a href=""><img src="./img/content/content/recent-played/vintage_culture.jfif" alt="">This Is Vintage Culture</a>
+          </li>
+          <li class="recent-played-item">
+            <a href=""><img src="./img/content/content/recent-played/vintage_culture.jfif" alt="">This Is Vintage Culture</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="may-like" class="grid-1-max card-style">
+        <header class="section-header">
+          <h2 class="section-header-title">Programas que talvez você curta</h2>
+          <a class="section-header-seeAll" href="#">Ver tudo</a>
+        </header>
+
+        <ul>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+        </ul>
+      </section>
+
+      <section id="recent-played" class="grid-1-max card-style">
+        <header class="section-header">
+          <h2 class="section-header-title">Seus mixes mais ouvidos</h2>
+          <a class="section-header-seeAll" href="#">Ver tudo</a>
+        </header>
+
+        <ul>
+          <li id="more-listen-mixes" class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+        </ul>
+      </section>
+
+      <section id="may-like" class="grid-1-max card-style">
+        <header class="section-header">
+          <h2 class="section-header-title">Programas que talvez você curta</h2>
+          <a class="section-header-seeAll" href="#">Ver tudo</a>
+        </header>
+
+        <ul>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/may-like/filosofia_vermelha.jfif" alt="">Filosofia Vermelha <span class="card-style-item-subtitle">Filosofia Vermelha</span></a></li>
+        </ul>
+      </section>
+
+      <section id="recent-played" class="grid-1-max card-style">
+        <header class="section-header">
+          <h2 class="section-header-title">Seus mixes mais ouvidos</h2>
+          <a class="section-header-seeAll" href="#">Ver tudo</a>
+        </header>
+
+        <ul>
+          <li id="more-listen-mixes" class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/more-listen-mixes/indie-mix.jfif" alt="">Mix indie<span class="card-style-item-subtitle">Joji, mehro, Lil Peep e mais</span></a></li>
+        </ul>
+      </section>
+
+      <section id="favorite-artists" class="grid-1-max card-style">
+        <header class="section-header">
+          <h2 class="section-header-title">Seus artistas favoritos</h2>
+          <a class="section-header-seeAll" href="#">Ver tudo</a>
+        </header>
+
+        <ul>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/joji.jfif" alt="">Joji<span class="card-style-item-subtitle">Artista</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/the_weeknd.jfif" alt="">The Weeknd<span class="card-style-item-subtitle">Artista</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/arctic_monkeys.jfif" alt="">Arctic Monkeys<span class="card-style-item-subtitle">Artista</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/bastille.jfif" alt="">Bastille<span class="card-style-item-subtitle">Artista</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/joji.jfif" alt="">Joji<span class="card-style-item-subtitle">Artista</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/the_weeknd.jfif" alt="">The Weeknd<span class="card-style-item-subtitle">Artista</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/arctic_monkeys.jfif" alt="">Arctic Monkeys<span class="card-style-item-subtitle">Artista</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/bastille.jfif" alt="">Bastille<span class="card-style-item-subtitle">Artista</span></a></li>
+        </ul>
+      </section>
+
+      <section id="favorite-artists" class="grid-1-max card-style">
+        <header class="section-header">
+          <h2 class="section-header-title">O que seus amigos estão ouvindo</h2>
+          <a class="section-header-seeAll" href="#">Ver tudo</a>
+        </header>
+
+        <ul>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/joji.jfif" alt="">Joji<span class="card-style-item-subtitle">Artista</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/the_weeknd.jfif" alt="">The Weeknd<span class="card-style-item-subtitle">Artista</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/arctic_monkeys.jfif" alt="">Arctic Monkeys<span class="card-style-item-subtitle">Artista</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/bastille.jfif" alt="">Bastille<span class="card-style-item-subtitle">Artista</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/joji.jfif" alt="">Joji<span class="card-style-item-subtitle">Artista</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/the_weeknd.jfif" alt="">The Weeknd<span class="card-style-item-subtitle">Artista</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/arctic_monkeys.jfif" alt="">Arctic Monkeys<span class="card-style-item-subtitle">Artista</span></a></li>
+          <li class="card-style-item"><a href="#"><img src="./img/content/content/mores-listen-artists/bastille.jfif" alt="">Bastille<span class="card-style-item-subtitle">Artista</span></a></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <nav>
+      <div class="now-playing">
+        <img class="now-playing-song-photo" src="./img/now-playing/song-photo.jpg" alt="">
+        <ul class="now-playing-song-info">
+          <li class="song-info-title"><a href="#">Stronger</a></li>
+          <li class="song-info-artist"><a href="#">The Score</a></li>
+        </ul>
+
+        <ul class="now-playing-feedback">
+          <li class="feedback-like"><button><img src="./img/now-playing/favorite.svg" alt="Adicionar faixa aos favoritos"></button></li>
+          <li class="feedback-remove"><button><img src="./img/now-playing/remove.svg" alt="Remover faixa da reprodução"></button></li>
+        </ul>
+      </div>
+
+      <div class="controls">
+        <div class="controls-buttons">
+          <ul class="buttons">
+            <li><button><img src="./img/now-playing/shuffle.svg" alt="Ativar modo aleatório"></button></li>
+            <li><button><img src="./img/now-playing/previous.svg" alt="Voltar na faixa anterior"></button></li>
+            <li><button><img src="./img/now-playing/pause.svg" alt="Pausar"></button></li>
+            <li><button><img src="./img/now-playing/next.svg" alt="Avançar para a próxima faixa"></button></li>
+            <li><button><img src="./img/now-playing/repeat.svg" alt="Repetir esta faixa"></button></li>
+          </ul>
+        </div>
+
+        <div class="controls-time">
+          <span class="controls-time-elapsed">0:00</span>
+          <input type="range" name="#" id="song-time" value="0">
+          <span class="controls-time-total">3:50</span>
+        </div>
+      </div>
+
+      <div class="right-controls">
+        <ul class="right-controls-options">
+          <li><button><img src="./img/now-playing/right-controls/karaoke.svg" alt="Letra da música"></button></li>
+          <li><button><img src="./img/now-playing/right-controls/query.svg" alt="Fila de músicas"></button></li>
+          <li><button><img src="./img/now-playing/right-controls/devices.svg" alt="Dispositivos disponíveis"></button></li>
+          <li><button><img src="./img/now-playing/right-controls/volume_up.svg" alt="Ajustar volume"></button> <input type="range" name="#" id="#" max="100" value="90"></li>
+          <li><button><img src="./img/now-playing/right-controls/fullscreen.svg" alt="Entrar no modo tela cheia"></button></li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+</body>
+
+</html>

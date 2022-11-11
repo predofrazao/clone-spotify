@@ -1,0 +1,55 @@
+.recent-played {
+  grid-column: 1 / -1;
+}
+
+.recent-played ul {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.recent-played-item a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: rgba(100, 100, 100, 0.2);
+  border-radius: 5px;
+  padding-right: 100px;
+  color: #fff;
+  box-shadow: inset 90px 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s;
+  position: relative;
+}
+
+.recent-played-item a:hover {
+  background-color: rgba(100, 100, 100, 0.5);
+}
+
+.recent-played-item a::after {
+  content: "";
+  display: none;
+  width: 50px;
+  height: 50px;
+  background: url("../../img/content/content/recent-played/icons/play.svg")
+    no-repeat center;
+  background-size: 35px;
+  background-color: #1fdf64;
+  border-radius: 50%;
+  position: absolute;
+  right: 25px;
+  box-shadow: 0 8px 5px rgba(10, 10, 10, 0.3);
+}
+
+.recent-played-item a::after:hover {
+  transform: scale(2);
+}
+
+.recent-played-item a:hover::after {
+  display: inline-block;
+}
+
+.recent-played-item img {
+  width: 80px;
+  border-radius: 5px 0 0 5px;
+}
